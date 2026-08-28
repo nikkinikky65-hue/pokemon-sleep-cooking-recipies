@@ -1,0 +1,6585 @@
+{
+  "version": 2,
+  "pokemon": [
+    {
+      "id": "1",
+      "name": "フシギダネ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "フシギソウ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "フシギバナ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "4",
+      "name": "ヒトカゲ",
+      "specialty": 2,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "5",
+      "name": "リザード",
+      "specialty": 2,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "6",
+      "name": "リザードン",
+      "specialty": 2,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "7",
+      "name": "ゼニガメ",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "8",
+      "name": "カメール",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "9",
+      "name": "カメックス",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "10",
+      "name": "キャタピー",
+      "specialty": 1,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "11",
+      "name": "トランセル",
+      "specialty": 1,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "12",
+      "name": "バタフリー",
+      "specialty": 1,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "19",
+      "name": "コラッタ",
+      "specialty": 1,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "20",
+      "name": "ラッタ",
+      "specialty": 1,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "23",
+      "name": "アーボ",
+      "specialty": 1,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "24",
+      "name": "アーボック",
+      "specialty": 1,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "25",
+      "name": "ピカチュウ",
+      "specialty": 1,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "26",
+      "name": "ライチュウ",
+      "specialty": 1,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "27",
+      "name": "サンド",
+      "specialty": 3,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 18,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "28",
+      "name": "サンドパン",
+      "specialty": 3,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 18,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "35",
+      "name": "ピッピ",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "36",
+      "name": "ピクシー",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "37",
+      "name": "ロコン",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "37a",
+      "name": "ロコン",
+      "specialty": 1,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "38",
+      "name": "キュウコン",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "38a",
+      "name": "キュウコン",
+      "specialty": 1,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "39",
+      "name": "プリン",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "40",
+      "name": "プクリン",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "50",
+      "name": "ディグダ",
+      "specialty": 2,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "51",
+      "name": "ダグトリオ",
+      "specialty": 2,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "52",
+      "name": "ニャース",
+      "specialty": 3,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "53",
+      "name": "ペルシアン",
+      "specialty": 3,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "54",
+      "name": "コダック",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "55",
+      "name": "ゴルダック",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "56",
+      "name": "マンキー",
+      "specialty": 1,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "57",
+      "name": "オコリザル",
+      "specialty": 1,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "58",
+      "name": "ガーディ",
+      "specialty": 3,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 8,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "59",
+      "name": "ウインディ",
+      "specialty": 3,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 8,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "69",
+      "name": "マダツボミ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "70",
+      "name": "ウツドン",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "71",
+      "name": "ウツボット",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "74",
+      "name": "イシツブテ",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "75",
+      "name": "ゴローン",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "76",
+      "name": "ゴローニャ",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "79",
+      "name": "ヤドン",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 14,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 12,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "80",
+      "name": "ヤドラン",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 14,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 12,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "81",
+      "name": "コイル",
+      "specialty": 3,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "82",
+      "name": "レアコイル",
+      "specialty": 3,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "83",
+      "name": "カモネギ",
+      "specialty": 2,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 1,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 8,
+            "lv60": 13
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "84",
+      "name": "ドードー",
+      "specialty": 1,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "85",
+      "name": "ドードリオ",
+      "specialty": 1,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "92",
+      "name": "ゴース",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "93",
+      "name": "ゴースト",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "94",
+      "name": "ゲンガー",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "95",
+      "name": "イワーク",
+      "specialty": 1,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "104",
+      "name": "カラカラ",
+      "specialty": 1,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "105",
+      "name": "ガラガラ",
+      "specialty": 1,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "113",
+      "name": "ラッキー",
+      "specialty": 2,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "115",
+      "name": "ガルーラ",
+      "specialty": 2,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "122",
+      "name": "バリヤード",
+      "specialty": 2,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "127",
+      "name": "カイロス",
+      "specialty": 2,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "132",
+      "name": "メタモン",
+      "specialty": 2,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 14,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "133",
+      "name": "イーブイ",
+      "specialty": 3,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "134",
+      "name": "シャワーズ",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "135",
+      "name": "サンダース",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "136",
+      "name": "ブースター",
+      "specialty": 3,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "147",
+      "name": "ミニリュウ",
+      "specialty": 2,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "148",
+      "name": "ハクリュー",
+      "specialty": 2,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "149",
+      "name": "カイリュー",
+      "specialty": 2,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "152",
+      "name": "チコリータ",
+      "specialty": 1,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "153",
+      "name": "ベイリーフ",
+      "specialty": 1,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "154",
+      "name": "メガニウム",
+      "specialty": 1,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "155",
+      "name": "ヒノアラシ",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "156",
+      "name": "マグマラシ",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "157",
+      "name": "バクフーン",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "158",
+      "name": "ワニノコ",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "159",
+      "name": "アリゲイツ",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "160",
+      "name": "オーダイル",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "172",
+      "name": "ピチュー",
+      "specialty": 1,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "173",
+      "name": "ピィ",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "174",
+      "name": "ププリン",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "175",
+      "name": "トゲピー",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "176",
+      "name": "トゲチック",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "177",
+      "name": "ネイティ",
+      "specialty": 1,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "178",
+      "name": "ネイティオ",
+      "specialty": 1,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "179",
+      "name": "メリープ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "180",
+      "name": "モココ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "181",
+      "name": "デンリュウ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "185",
+      "name": "ウソッキー",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "194",
+      "name": "ウパー",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 6,
+            "lv60": 10
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "195",
+      "name": "ヌオー",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 6,
+            "lv60": 10
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "196",
+      "name": "エーフィ",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "197",
+      "name": "ブラッキー",
+      "specialty": 3,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "198",
+      "name": "ヤミカラス",
+      "specialty": 3,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 3,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "199",
+      "name": "ヤドキング",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 14,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 12,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "202",
+      "name": "ソーナンス",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "208",
+      "name": "ハガネール",
+      "specialty": 1,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "213",
+      "name": "ツボツボ",
+      "specialty": 3,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "214",
+      "name": "ヘラクロス",
+      "specialty": 3,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "215",
+      "name": "ニューラ",
+      "specialty": 1,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "225",
+      "name": "デリバード",
+      "specialty": 2,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "228",
+      "name": "デルビル",
+      "specialty": 1,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "229",
+      "name": "ヘルガー",
+      "specialty": 1,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "242",
+      "name": "ハピナス",
+      "specialty": 2,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "243",
+      "name": "ライコウ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "244",
+      "name": "エンテイ",
+      "specialty": 3,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 12,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "245",
+      "name": "スイクン",
+      "specialty": 3,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 16,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "246",
+      "name": "ヨーギラス",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "247",
+      "name": "サナギラス",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "248",
+      "name": "バンギラス",
+      "specialty": 2,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "252",
+      "name": "キモリ",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "253",
+      "name": "ジュプトル",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "254",
+      "name": "ジュカイン",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "255",
+      "name": "アチャモ",
+      "specialty": 1,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "256",
+      "name": "ワカシャモ",
+      "specialty": 1,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "257",
+      "name": "バシャーモ",
+      "specialty": 1,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "258",
+      "name": "ミズゴロウ",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "259",
+      "name": "ヌマクロー",
+      "specialty": 1,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "260",
+      "name": "ラグラージ",
+      "specialty": 1,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "280",
+      "name": "ラルトス",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "281",
+      "name": "キルリア",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "282",
+      "name": "サーナイト",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "287",
+      "name": "ナマケロ",
+      "specialty": 1,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "288",
+      "name": "ヤルキモノ",
+      "specialty": 1,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "289",
+      "name": "ケッキング",
+      "specialty": 1,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "302",
+      "name": "ヤミラミ",
+      "specialty": 3,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "303",
+      "name": "クチート",
+      "specialty": 2,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 12,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "304",
+      "name": "ココドラ",
+      "specialty": 2,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "305",
+      "name": "コドラ",
+      "specialty": 2,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "306",
+      "name": "ボスゴドラ",
+      "specialty": 2,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "311",
+      "name": "プラスル",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 8,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "312",
+      "name": "マイナン",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 8,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "316",
+      "name": "ゴクリン",
+      "specialty": 3,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "317",
+      "name": "マルノーム",
+      "specialty": 3,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "328",
+      "name": "ナックラー",
+      "specialty": 2,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 19,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "329",
+      "name": "ビブラーバ",
+      "specialty": 2,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 19,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "330",
+      "name": "フライゴン",
+      "specialty": 2,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 19,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 12
+          }
+        }
+      }
+    },
+    {
+      "id": "333",
+      "name": "チルット",
+      "specialty": 1,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "334",
+      "name": "チルタリス",
+      "specialty": 1,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 5,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "353",
+      "name": "カゲボウズ",
+      "specialty": 1,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "354",
+      "name": "ジュペッタ",
+      "specialty": 1,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "359",
+      "name": "アブソル",
+      "specialty": 2,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 8,
+            "lv60": 12
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "360",
+      "name": "ソーナノ",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "363",
+      "name": "タマザラシ",
+      "specialty": 1,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "364",
+      "name": "トドグラー",
+      "specialty": 1,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "365",
+      "name": "トドゼルガ",
+      "specialty": 1,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "371",
+      "name": "タツベイ",
+      "specialty": 1,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "372",
+      "name": "コモルー",
+      "specialty": 1,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "373",
+      "name": "ボーマンダ",
+      "specialty": 1,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "380",
+      "name": "ラティアス",
+      "specialty": 3,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 18,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "381",
+      "name": "ラティオス",
+      "specialty": 3,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 8,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "387",
+      "name": "ナエトル",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "388",
+      "name": "ハヤシガメ",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "389",
+      "name": "ドダイトス",
+      "specialty": 3,
+      "type": 9,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "390",
+      "name": "ヒコザル",
+      "specialty": 3,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "391",
+      "name": "モウカザル",
+      "specialty": 3,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "392",
+      "name": "ゴウカザル",
+      "specialty": 3,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "393",
+      "name": "ポッチャマ",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "394",
+      "name": "ポッタイシ",
+      "specialty": 1,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "395",
+      "name": "エンペルト",
+      "specialty": 1,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "403",
+      "name": "コリンク",
+      "specialty": 2,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "404",
+      "name": "ルクシオ",
+      "specialty": 2,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "405",
+      "name": "レントラー",
+      "specialty": 2,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "425",
+      "name": "フワンテ",
+      "specialty": 3,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "426",
+      "name": "フワライド",
+      "specialty": 3,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "430",
+      "name": "ドンカラス",
+      "specialty": 3,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 3,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "438",
+      "name": "ウソハチ",
+      "specialty": 3,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "439",
+      "name": "マネネ",
+      "specialty": 2,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "440",
+      "name": "ピンプク",
+      "specialty": 2,
+      "type": 1,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "442",
+      "name": "ミカルゲ",
+      "specialty": 2,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 2,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 18,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "447",
+      "name": "リオル",
+      "specialty": 3,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "448",
+      "name": "ルカリオ",
+      "specialty": 3,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "453",
+      "name": "グレッグル",
+      "specialty": 2,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "454",
+      "name": "ドクロッグ",
+      "specialty": 2,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 5,
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "459",
+      "name": "ユキカブリ",
+      "specialty": 2,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "460",
+      "name": "ユキノオー",
+      "specialty": 2,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "461",
+      "name": "マニューラ",
+      "specialty": 1,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 3,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 15,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "462",
+      "name": "ジバコイル",
+      "specialty": 3,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 6,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "468",
+      "name": "トゲキッス",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 3,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "470",
+      "name": "リーフィア",
+      "specialty": 3,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "471",
+      "name": "グレイシア",
+      "specialty": 3,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "475",
+      "name": "エルレイド",
+      "specialty": 3,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "488",
+      "name": "クレセリア",
+      "specialty": 3,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 11,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 12,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "517",
+      "name": "ムンナ",
+      "specialty": 1,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "518",
+      "name": "ムシャーナ",
+      "specialty": 1,
+      "type": 11,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 9,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "557",
+      "name": "イシズマイ",
+      "specialty": 3,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 19,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "558",
+      "name": "イワパレス",
+      "specialty": 3,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 19,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 3,
+            "lv60": 5
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "627",
+      "name": "ワシボン",
+      "specialty": 3,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "628",
+      "name": "ウォーグル",
+      "specialty": 3,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 16,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 17,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "696",
+      "name": "チゴラス",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "697",
+      "name": "ガチゴラス",
+      "specialty": 2,
+      "type": 13,
+      "ingredients": {
+        "A": {
+          "id": 7,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "700",
+      "name": "ニンフィア",
+      "specialty": 3,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "701",
+      "name": "ルチャブル",
+      "specialty": 3,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 6,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "702",
+      "name": "デデンネ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 16,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "710",
+      "name": "バケッチャ",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 18,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 11,
+            "lv60": 18
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "711",
+      "name": "パンプジン",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 18,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 15,
+          "counts": {
+            "lv30": 11,
+            "lv60": 18
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "714",
+      "name": "オンバット",
+      "specialty": 3,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "715",
+      "name": "オンバーン",
+      "specialty": 3,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "736",
+      "name": "アゴジムシ",
+      "specialty": 2,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 11
+          }
+        }
+      }
+    },
+    {
+      "id": "737",
+      "name": "デンヂムシ",
+      "specialty": 2,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 11
+          }
+        }
+      }
+    },
+    {
+      "id": "738",
+      "name": "クワガノン",
+      "specialty": 2,
+      "type": 12,
+      "ingredients": {
+        "A": {
+          "id": 17,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 2,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 9,
+          "counts": {
+            "lv60": 11
+          }
+        }
+      }
+    },
+    {
+      "id": "742",
+      "name": "アブリー",
+      "specialty": 2,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 16,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "743",
+      "name": "アブリボン",
+      "specialty": 2,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 9,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 10,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 16,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "759",
+      "name": "ヌイコグマ",
+      "specialty": 2,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 6,
+            "lv60": 10
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 9
+          }
+        }
+      }
+    },
+    {
+      "id": "760",
+      "name": "キテルグマ",
+      "specialty": 2,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 6,
+            "lv60": 10
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 9
+          }
+        }
+      }
+    },
+    {
+      "id": "764",
+      "name": "キュワワー",
+      "specialty": 2,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 16,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 11,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "777",
+      "name": "トゲデマル",
+      "specialty": 3,
+      "type": 17,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 19,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 13,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "778",
+      "name": "ミミッキュ",
+      "specialty": 3,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 1,
+            "lv60": 2
+          }
+        },
+        "C": {
+          "id": 2,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "780",
+      "name": "ジジーロン",
+      "specialty": 2,
+      "type": 15,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 19,
+          "counts": {
+            "lv30": 3,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 7,
+          "counts": {
+            "lv60": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "845",
+      "name": "ウッウ",
+      "specialty": 2,
+      "type": 10,
+      "ingredients": {
+        "A": {
+          "id": 10,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 4,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "848",
+      "name": "エレズン",
+      "specialty": 3,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "849",
+      "name": "ストリンダー",
+      "specialty": 3,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 8,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 5,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 1,
+          "counts": {
+            "lv60": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "906",
+      "name": "ニャオハ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "907",
+      "name": "ニャローテ",
+      "specialty": 2,
+      "type": 5,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "908",
+      "name": "マスカーニャ",
+      "specialty": 2,
+      "type": 16,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 6,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 11,
+          "counts": {
+            "lv60": 8
+          }
+        }
+      }
+    },
+    {
+      "id": "909",
+      "name": "ホゲータ",
+      "specialty": 2,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "910",
+      "name": "アチゲータ",
+      "specialty": 2,
+      "type": 2,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "911",
+      "name": "ラウドボーン",
+      "specialty": 2,
+      "type": 14,
+      "ingredients": {
+        "A": {
+          "id": 5,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 4,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 6,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "912",
+      "name": "クワッス",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "913",
+      "name": "ウェルカモ",
+      "specialty": 2,
+      "type": 3,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "914",
+      "name": "ウェーニバル",
+      "specialty": 2,
+      "type": 7,
+      "ingredients": {
+        "A": {
+          "id": 15,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 1,
+          "counts": {
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "C": {
+          "id": 10,
+          "counts": {
+            "lv60": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "921",
+      "name": "パモ",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "922",
+      "name": "パモット",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "923",
+      "name": "パーモット",
+      "specialty": 3,
+      "type": 4,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 8,
+          "counts": {
+            "lv30": 3,
+            "lv60": 6
+          }
+        },
+        "C": {
+          "id": 3,
+          "counts": {
+            "lv60": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "957",
+      "name": "カヌチャン",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "958",
+      "name": "ナカヌチャン",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "959",
+      "name": "デカヌチャン",
+      "specialty": 1,
+      "type": 18,
+      "ingredients": {
+        "A": {
+          "id": 12,
+          "counts": {
+            "lv1": 1,
+            "lv30": 2,
+            "lv60": 4
+          }
+        },
+        "B": {
+          "id": 13,
+          "counts": {
+            "lv30": 2,
+            "lv60": 3
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 3
+          }
+        }
+      }
+    },
+    {
+      "id": "974",
+      "name": "アルクジラ",
+      "specialty": 2,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 5,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 18,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "975",
+      "name": "ハルクジラ",
+      "specialty": 2,
+      "type": 6,
+      "ingredients": {
+        "A": {
+          "id": 4,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 7,
+          "counts": {
+            "lv30": 5,
+            "lv60": 9
+          }
+        },
+        "C": {
+          "id": 18,
+          "counts": {
+            "lv60": 4
+          }
+        }
+      }
+    },
+    {
+      "id": "980",
+      "name": "ドオー",
+      "specialty": 2,
+      "type": 8,
+      "ingredients": {
+        "A": {
+          "id": 13,
+          "counts": {
+            "lv1": 2,
+            "lv30": 5,
+            "lv60": 7
+          }
+        },
+        "B": {
+          "id": 17,
+          "counts": {
+            "lv30": 4,
+            "lv60": 7
+          }
+        },
+        "C": {
+          "id": 4,
+          "counts": {
+            "lv60": 9
+          }
+        }
+      }
+    }
+  ]
+}

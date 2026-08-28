@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ポケスリ料理構成ツール</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<main>
+<h1>ポケスリ料理構成ツール</h1>
+<p class="muted">実験版：カレー・サラダ・デザート対応 / 最大5匹の1パーティで料理構成を探索</p>
+
+<section>
+<label>1. 料理カテゴリ</label>
+<div id="categoryButtons" class="category-buttons">
+  <button type="button" class="category-button active" data-category="curry">カレー</button>
+  <button type="button" class="category-button" data-category="salad">サラダ</button>
+  <button type="button" class="category-button" data-category="dessert">デザート・ドリンク</button>
+</div>
+</section>
+
+<section>
+<label>2. パーティ構成（最大5匹）</label>
+<div class="muted">タイプ絞り込み（複数選択可・未選択＝全タイプ）</div>
+<div id="partyTypeGrid" class="type-grid" style="margin:8px 0 12px"></div>
+<div class="party" id="party"></div>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:10px;flex-wrap:wrap">
+  <p class="muted" style="margin:0;flex:1 1 420px">各ポケモンの食材枠をタップすると、枠2は A→B、枠3は A→B→C の順で切り替わります。</p>
+  <button type="button" id="partyReset" style="margin-left:auto;flex:0 0 auto">パーティを一括リセット</button>
+</div>
+</section>
+
+<section>
+<label>3. 料理候補</label>
+<div class="muted">現在のパーティが持つ食材種類との一致数が多い順に表示します。</div>
+<div id="recipes"></div>
+</section>
+
+<section id="resultSection" class="hidden">
+<label>4. 選択料理の不足食材</label>
+<div id="missing"></div>
+</section>
+
+<section id="candidateSection" class="hidden">
+<label>5. 食材を持ってくるポケモン候補</label>
+<div id="candidateTitle" class="muted"></div>
+<div style="margin:10px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px">
+  <div>
+    <label for="candidateSort">並び順</label>
+    <select id="candidateSort">
+      <option value="ingredient">食材構成優先（A → B → C）</option>
+      <option value="dex">図鑑番号順</option>
+    </select>
+  </div>
+  <div>
+    <label>タイプ絞り込み（複数選択可）</label>
+    <div id="candidateTypeGrid" class="type-grid"></div>
+  </div>
+</div>
+<div id="candidates"></div>
+</section>
+
+<section id="status" class="muted"></section>
+</main>
+<script src="./js/app.js"></script>
+</body>
+</html>
