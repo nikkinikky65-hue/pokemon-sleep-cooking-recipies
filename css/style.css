@@ -1,45 +1,515 @@
-:root{font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif}
-body{margin:0;background:#f5f5f5;color:#222}
-main{max-width:1050px;margin:auto;padding:18px}
-h1{font-size:1.5rem}
-section{background:#fff;border-radius:14px;padding:16px;margin:14px 0}
-label{display:block;font-weight:700;margin-bottom:6px}
-select,button{font:inherit;padding:9px;border-radius:9px;border:1px solid #bbb;background:#fff}
-select{width:100%}
-.party{display:grid;grid-template-columns:repeat(5,minmax(165px,1fr));gap:10px;overflow-x:auto}
-.member{border:1px solid #ddd;border-radius:12px;padding:10px;min-width:155px}
-.member-title{font-weight:700;margin-bottom:8px}
-.foods{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:8px}
-.food{min-height:88px;padding:6px 4px;text-align:center;white-space:normal}
-.food .slot{font-size:.75rem;color:#666}
-.food .name{font-weight:700;font-size:.85rem;margin:4px 0}
-.food .count{font-size:.8rem}
-.food.disabled{opacity:.4;cursor:default}
-.card{border:1px solid #ddd;border-radius:12px;padding:12px;margin:8px 0;cursor:pointer}
-.muted{color:#666;font-size:.9rem}
-.hidden{display:none}
-.active{outline:2px solid #555}.category-buttons{display:flex;gap:8px;flex-wrap:wrap}.category-button{min-width:110px}.category-button.active{font-weight:700;background:#eee}.type-grid{display:grid;grid-template-columns:repeat(6,minmax(70px,1fr));gap:6px}.type-button{padding:7px 4px;font-size:.85rem}.type-button.active{font-weight:700;background:#eee}@media(max-width:700px){.type-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:700px){.party{grid-template-columns:repeat(5,170px)}}
-.ingredient-display,
-.candidate-ingredient {
+/* ==================================================
+   ポケスリ料理構成ツール
+   style.css
+   ================================================== */
+
+
+/* ---------- 全体 ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  margin: 0;
+  padding: 20px;
+
+  background: #f6f7f9;
+  color: #222;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+/* ---------- 共通レイアウト ---------- */
+
+section {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+}
+
+.card {
+  background: white;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* ==================================================
+   1. 料理カテゴリ
+   ================================================== */
+
+.category-buttons {
   display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.category-button {
+  padding: 9px 18px;
+
+  border: 1px solid #bbb;
+  border-radius: 8px;
+
+  background: white;
+}
+
+.category-button.active {
+  border-color: #333;
+  font-weight: bold;
+}
+
+
+/* ==================================================
+   タイプ選択
+   ================================================== */
+
+.type-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(6, minmax(90px, 1fr));
+
+  gap: 6px;
+
+  margin: 8px 0 12px;
+}
+
+.type-button {
+  min-width: 0;
+
+  padding: 7px 4px;
+
+  border: 1px solid #bbb;
+  border-radius: 8px;
+
+  background: white;
+
+  white-space: nowrap;
+}
+
+.type-button.active {
+  border-color: #333;
+  background: #e8e8e8;
+  font-weight: bold;
+}
+
+
+/* ==================================================
+   2. パーティ構成
+   ================================================== */
+
+#party {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 8px;
+
+  width: 100%;
+}
+
+
+/* ポケモン1匹分 */
+
+.member {
+  min-width: 0;
+
+  padding: 8px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  background: white;
+
+  overflow: hidden;
+}
+
+.member-title {
+  margin-bottom: 6px;
+
+  font-weight: bold;
+}
+
+.member select {
+  width: 100%;
+  min-width: 0;
+
+  padding: 7px;
+
+  margin-bottom: 7px;
+
+  border: 1px solid #bbb;
+  border-radius: 7px;
+
+  background: white;
+}
+
+
+/* ---------- 3つの食材枠 ---------- */
+
+.foods {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 4px;
+
+  width: 100%;
+}
+
+
+/*
+   重要：
+   食材画像を追加しても
+   このボタン自体の横幅を拡大させない
+*/
+
+.food {
+  width: 100%;
+  min-width: 0;
+
+  padding: 5px 2px;
+
+  border: 1px solid #ddd;
+  border-radius: 7px;
+
+  background: #fff;
+
+  overflow: hidden;
+}
+
+.food.disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+
+/* ---------- 食材枠番号 ---------- */
+
+.food .slot {
+  width: 100%;
+
+  margin-bottom: 2px;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  text-align: center;
+
+  font-size: 0.72em;
+  color: #666;
+}
+
+
+/* ==================================================
+   食材画像
+   ================================================== */
+
+
+/*
+   画像・名前を縦方向に配置。
+
+   横方向へ画像を追加しないことで
+   既存の食材枠サイズを維持する。
+*/
+
+.ingredient-display {
+  display: flex;
+
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.4em;
+
+  width: 100%;
   min-width: 0;
+
+  gap: 1px;
+
+  overflow: hidden;
 }
 
-.ingredient-icon {
-  width: clamp(26px, 4vw, 42px);
-  height: clamp(26px, 4vw, 42px);
+
+/* 食材アイコン */
+
+.ingredient-display .ingredient-icon {
+  width: clamp(22px, 2.2vw, 32px);
+  height: clamp(22px, 2.2vw, 32px);
 
   object-fit: contain;
-  flex: 0 1 auto;
+
+  flex-shrink: 1;
 }
 
+
+/* 食材名 */
+
 .ingredient-display .name {
+  display: block;
+
+  width: 100%;
   min-width: 0;
+
   overflow: hidden;
-  text-overflow: ellipsis;
+
   white-space: nowrap;
+  text-overflow: ellipsis;
+
+  text-align: center;
+
+  font-size: 0.82em;
+  line-height: 1.15;
+}
+
+
+/* 拾得個数 */
+
+.food .count {
+  width: 100%;
+
+  margin-top: 2px;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  text-align: center;
+
+  font-size: 0.82em;
+}
+
+
+/* ==================================================
+   パーティ操作
+   ================================================== */
+
+.party-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin-top: 10px;
+}
+
+#partyReset {
+  flex-shrink: 0;
+
+  padding: 7px 12px;
+
+  border: 1px solid #bbb;
+  border-radius: 7px;
+
+  background: white;
+}
+
+
+/* ==================================================
+   3. 料理候補
+   ================================================== */
+
+#recipes {
+  display: grid;
+  gap: 8px;
+}
+
+#recipes .card {
+  cursor: pointer;
+}
+
+
+/* ==================================================
+   4. 不足食材
+   ================================================== */
+
+#missing button {
+  padding: 7px 10px;
+
+  border: 1px solid #bbb;
+  border-radius: 7px;
+
+  background: white;
+}
+
+
+/* ==================================================
+   5. 候補ポケモン
+   ================================================== */
+
+#candidateSection {
+  margin-top: 20px;
+}
+
+#candidateSort {
+  padding: 6px;
+
+  margin-bottom: 8px;
+}
+
+#candidates {
+  display: grid;
+  gap: 8px;
+}
+
+
+/*
+   候補欄はパーティ食材枠より横幅があるため、
+   画像と取得量を横並びにする。
+*/
+
+.candidate-ingredient {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-top: 5px;
+
+  min-width: 0;
+}
+
+.candidate-ingredient .ingredient-icon {
+  width: clamp(28px, 3vw, 40px);
+  height: clamp(28px, 3vw, 40px);
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+
+/* ==================================================
+   ステータス表示
+   ================================================== */
+
+#status {
+  max-width: 1200px;
+
+  margin: 12px auto;
+
+  color: #666;
+
+  font-size: 0.85em;
+}
+
+
+/* ==================================================
+   タブレット
+   ================================================== */
+
+@media (max-width: 900px) {
+
+  body {
+    padding: 12px;
+  }
+
+  .type-grid {
+    grid-template-columns:
+      repeat(6, minmax(65px, 1fr));
+  }
+
+  /*
+     パーティ5枠は維持。
+     各要素だけ縮小させる。
+  */
+
+  #party {
+    gap: 5px;
+  }
+
+  .member {
+    padding: 5px;
+  }
+
+  .foods {
+    gap: 2px;
+  }
+
+  .food {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+}
+
+
+/* ==================================================
+   狭い画面
+   ================================================== */
+
+@media (max-width: 600px) {
+
+  body {
+    padding: 8px;
+  }
+
+  .type-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+
+  /*
+     スマホでも5匹という情報構造は維持。
+     横スクロールで扱えるようにする。
+  */
+
+  #party {
+    display: flex;
+
+    overflow-x: auto;
+
+    gap: 6px;
+
+    padding-bottom: 5px;
+  }
+
+  .member {
+    flex: 0 0 180px;
+  }
+
+  .ingredient-display .ingredient-icon {
+    width: 28px;
+    height: 28px;
+  }
+
 }
