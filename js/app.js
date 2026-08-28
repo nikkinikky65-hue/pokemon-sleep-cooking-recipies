@@ -146,51 +146,72 @@ function makeMember(i){
   return member;
 }
 
-function renderFoods(member){
-  member.foods.innerHTML="";
+function renderFoods(member) {
+  member.foods.innerHTML = "";
 
-  [0,1,2].forEach(slot=>{
-    const opts=optionsFor(member.pokemon,slot);
+  [0, 1, 2].forEach(slot => {
+    const opts = optionsFor(member.pokemon, slot);
 
-    const btn=document.createElement("button");
-    btn.className="food";
+    const btn = document.createElement("button");
+    btn.className = "food";
 
-    if(!opts.length){
+    // ポケモン未選択など、表示できる食材がない場合
+    if (!opts.length) {
       btn.classList.add("disabled");
-      btn.disabled=true;
+      btn.disabled = true;
 
-      btn.innerHTML=`
-  <div class="slot">食材枠${slot+1} / ${opt.key}</div>
-  <div class="ingredient-display">
-    <img
-      class="ingredient-icon"
-      src="${ingredientImage(opt.data.id)}"
-      alt="${ingName(opt.data.id)}"
-    >
-    <span class="name">${ingName(opt.data.id)}</span>
-  </div>
-  <div class="count">
-    ${count==null ? "個数未登録" : `×${count}`}
-  </div>
-`;
-    }else{
-      member.choice[slot]%=opts.length;
+      btn.innerHTML = `
+        <div class="slot">
+          食材枠${slot + 1}
+        </div>
 
-      const opt=opts[member.choice[slot]];
-      const count=countFor(opt,slot);
+        <div class="name">
+          —
+        </div>
+      `;
+    }
 
-      btn.innerHTML=`
-        <div class="slot">食材枠${slot+1} / ${opt.key}</div>
-        <div class="name">${ingName(opt.data.id)}</div>
+    // 食材が存在する場合
+    else {
+      member.choice[slot] %= opts.length;
+
+      // opt はこのブロック内で定義
+      const opt = opts[member.choice[slot]];
+      const count = countFor(opt, slot);
+
+      btn.innerHTML = `
+        <div class="slot">
+          食材枠${slot + 1} / ${opt.key}
+        </div>
+
+        <div class="ingredient-display">
+
+          <img
+            class="ingredient-icon"
+            src="${ingredientImage(opt.data.id)}"
+            alt="${ingName(opt.data.id)}"
+          >
+
+          <span class="name">
+            ${ingName(opt.data.id)}
+          </span>
+
+        </div>
+
         <div class="count">
-          ${count==null ? "個数未登録" : `×${count}`}
+          ${
+            count == null
+              ? "個数未登録"
+              : `×${count}`
+          }
         </div>
       `;
 
-      if(opts.length>1){
-        btn.onclick=()=>{
-          member.choice[slot]=
-            (member.choice[slot]+1)%opts.length;
+      // A/B/Cを切り替えられる枠
+      if (opts.length > 1) {
+        btn.onclick = () => {
+          member.choice[slot] =
+            (member.choice[slot] + 1) % opts.length;
 
           renderFoods(member);
           renderRecipes();
