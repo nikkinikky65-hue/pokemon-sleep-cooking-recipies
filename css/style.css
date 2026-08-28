@@ -20,3 +20,16 @@ select{width:100%}
 .hidden{display:none}
 .active{outline:2px solid #555}.category-buttons{display:flex;gap:8px;flex-wrap:wrap}.category-button{min-width:110px}.category-button.active{font-weight:700;background:#eee}.type-grid{display:grid;grid-template-columns:repeat(6,minmax(70px,1fr));gap:6px}.type-button{padding:7px 4px;font-size:.85rem}.type-button.active{font-weight:700;background:#eee}@media(max-width:700px){.type-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:700px){.party{grid-template-columns:repeat(5,170px)}}
+.ingredient-display,
+.candidate-ingredient {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ingredient-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}

@@ -17,6 +17,8 @@ const state={
 
 const $=id=>document.getElementById(id);
 const ingName=id=>state.ingredients.get(Number(id))?.name??`食材${id}`;
+const ingredientImage = id =>
+  `./assets/images/ingredients/${String(id).padStart(3, "0")}.jpg`;
 
 function optionsFor(p,slot){
   const A=p?.ingredients?.A;
@@ -158,9 +160,19 @@ function renderFoods(member){
       btn.disabled=true;
 
       btn.innerHTML=`
-        <div class="slot">食材枠${slot+1}</div>
-        <div class="name">—</div>
-      `;
+  <div class="slot">食材枠${slot+1} / ${opt.key}</div>
+  <div class="ingredient-display">
+    <img
+      class="ingredient-icon"
+      src="${ingredientImage(opt.data.id)}"
+      alt="${ingName(opt.data.id)}"
+    >
+    <span class="name">${ingName(opt.data.id)}</span>
+  </div>
+  <div class="count">
+    ${count==null ? "個数未登録" : `×${count}`}
+  </div>
+`;
     }else{
       member.choice[slot]%=opts.length;
 
@@ -484,7 +496,14 @@ function renderCandidates(foodId,requiredCount){
         ${TYPE_MASTER[String(p.type)]??p.type}
       </div>
 
-      <div>${hits.join(" ・ ")}</div>
+      <div class="candidate-ingredient">
+  <img
+    class="ingredient-icon"
+    src="${ingredientImage(foodId)}"
+    alt="${ingName(foodId)}"
+  >
+  <span>${hits.join(" ・ ")}</span>
+</div>
     `;
 
     $("candidates").appendChild(d);
