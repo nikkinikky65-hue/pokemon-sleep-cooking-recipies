@@ -32,62 +32,97 @@
 </section>
 
 <section id="recipeSection">
-  <h2>3. 料理候補</h2>
 
-  <div class="recipe-controls">
+  <div class="recipe-section-head">
+    <h2>3. 料理候補</h2>
 
-    <div class="recipe-control">
-      <label for="recipeSelect">料理</label>
-      <select id="recipeSelect">
-        <option value="">すべての料理</option>
-      </select>
-    </div>
+    <button
+      type="button"
+      id="recipeToggle"
+      class="recipe-toggle"
+      aria-expanded="false"
+    >
+      料理一覧を開く ▼
+    </button>
+  </div>
 
-    <div class="recipe-control">
-      <label for="recipeSort">並び順</label>
-      <select id="recipeSort">
-        <option value="energy-desc">レシピエナジー：高い順</option>
-        <option value="energy-asc">レシピエナジー：低い順</option>
-        <option value="pot-desc">鍋容量：多い順</option>
-        <option value="pot-asc">鍋容量：少ない順</option>
-      </select>
-    </div>
 
-    <div class="pot-filter">
-      <div class="pot-filter-head">
-        <span>必要鍋容量</span>
-        <span id="potRangeLabel">-- ～ --</span>
+  <div id="recipeContent" class="hidden">
+
+    <div class="recipe-controls">
+
+      <div class="recipe-control">
+        <label for="recipeSort">並び順</label>
+
+        <select id="recipeSort">
+          <option value="pot">鍋要求量</option>
+          <option value="energy">レシピエナジー</option>
+        </select>
       </div>
 
-      <div class="dual-range">
-        <div class="range-track"></div>
-        <div id="rangeFill" class="range-fill"></div>
 
-        <input
-          id="potMin"
-          type="range"
-          min="0"
-          max="200"
-          value="0"
-        >
+      <div class="recipe-direction-control">
 
-        <input
-          id="potMax"
-          type="range"
-          min="0"
-          max="200"
-          value="200"
+        <span class="recipe-direction-label">
+          順序
+        </span>
+
+        <button
+          type="button"
+          id="recipeDirection"
+          class="recipe-direction"
+          data-direction="desc"
         >
+          ↓ 降順
+        </button>
+
       </div>
+
+
+      <div class="pot-filter">
+
+        <div class="pot-filter-head">
+          <span>鍋要求量</span>
+          <span id="potRangeLabel">-- ～ --</span>
+        </div>
+
+        <div class="dual-range">
+
+          <div class="range-track"></div>
+          <div id="rangeFill" class="range-fill"></div>
+
+          <input
+            id="potMin"
+            type="range"
+            min="0"
+            max="200"
+            value="0"
+          >
+
+          <input
+            id="potMax"
+            type="range"
+            min="0"
+            max="200"
+            value="200"
+          >
+
+        </div>
+
+      </div>
+
     </div>
+
+
+    <p class="muted">
+      パーティ選択時は食材一致数を優先し、その中で指定した順番に並べます。
+    </p>
+
+
+    <div id="recipes"></div>
 
   </div>
 
-  <p class="muted">
-    パーティとの食材一致数を優先し、その中で指定した順番に並べます。
-  </p>
-
-  <div id="recipes"></div>
 </section>
 
 <section id="resultSection" class="hidden">

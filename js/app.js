@@ -13,8 +13,10 @@ const state={
   category:"curry",
   partyTypes:new Set(),
   candidateTypes:new Set(),
-  recipeFilter:"",
-  recipeSort:"energy-desc",
+  recipeSort:"pot",
+  recipeDirection:"desc",
+  recipeExpanded:false,
+
   potMin:0,
   potMax:Infinity
 };
@@ -203,7 +205,14 @@ function makeMember(i){
         ? member
         : null;
 
-    renderFoods(member);
+        renderFoods(member);
+
+    if(state.party.some(Boolean)){
+      setRecipeExpanded(true);
+    }else{
+      setRecipeExpanded(false);
+    }
+
     renderRecipes();
   };
 
@@ -416,109 +425,134 @@ function categoryRecipes(){
    3. 料理候補UI
    ================================================== */
 
-function updateRecipeControls(){
-  const list=categoryRecipes();
+function setRecipeExpanded(expanded){
 
-  const select=$("recipeSelect");
-  const minInput=$("potMin");
-  const maxInput=$("potMax");
+  state.recipeExpanded=expanded;
 
-  if(
-    !select ||
-    !minInput ||
-    !maxInput
-  ){
-    return;
+  const content=
+    $("recipeContent");
+
+  const toggle=
+    $("recipeToggle");
+
+
+  if(expanded){
+
+    content.classList.remove("hidden");
+
+    toggle.textContent=
+      "料理一覧を閉じる ▲";
+
+    toggle.setAttribute(
+      "aria-expanded",
+      "true"
+    );
+
+  }else{
+
+    content.classList.add("hidden");
+
+    toggle.textContent=
+      "料理一覧を開く ▼";
+
+    toggle.setAttribute(
+      "aria-expanded",
+      "false"
+    );
+
   }
+}
 
-  /* 料理プルダウン */
 
-  select.innerHTML=
-    '<option value="">すべての料理</option>';
+function updateRecipeControls(){
 
-  list
-    .slice()
-    .sort(
-      (a,b)=>
-        recipeEnergy(b)-
-        recipeEnergy(a)
-    )
-    .forEach(r=>{
-      const option=
-        document.createElement("option");
+  const list=
+    categoryRecipes();
 
-      option.value=r.name;
-      option.textContent=r.name;
+  const minInput=
+    $("potMin");
 
-      select.appendChild(option);
-    });
+  const maxInput=
+    $("potMax");
 
-  state.recipeFilter="";
-  select.value="";
-
-  /* 鍋容量レンジ */
 
   const pots=
     list
       .map(recipePot)
       .filter(Number.isFinite);
 
+
   const min=
     pots.length
       ? Math.min(...pots)
       : 0;
+
 
   const max=
     pots.length
       ? Math.max(...pots)
       : 100;
 
+
   minInput.min=min;
   minInput.max=max;
   minInput.step=1;
   minInput.value=min;
+
 
   maxInput.min=min;
   maxInput.max=max;
   maxInput.step=1;
   maxInput.value=max;
 
+
   state.potMin=min;
   state.potMax=max;
+
 
   updatePotRangeUI();
 }
 
 
 function updatePotRangeUI(){
-  const minInput=$("potMin");
-  const maxInput=$("potMax");
-  const fill=$("rangeFill");
-  const label=$("potRangeLabel");
 
-  if(
-    !minInput ||
-    !maxInput ||
-    !fill ||
-    !label
-  ){
-    return;
-  }
+  const minInput=
+    $("potMin");
 
-  const lo=Number(minInput.min);
-  const hi=Number(minInput.max);
+  const maxInput=
+    $("potMax");
 
-  const min=Number(minInput.value);
-  const max=Number(maxInput.value);
+  const fill=
+    $("rangeFill");
+
+  const label=
+    $("potRangeLabel");
+
+
+  const lo=
+    Number(minInput.min);
+
+  const hi=
+    Number(minInput.max);
+
+  const min=
+    Number(minInput.value);
+
+  const max=
+    Number(maxInput.value);
+
 
   const span=
     hi-lo || 1;
 
+
   label.textContent=
     `${min} ～ ${max}`;
 
+
   fill.style.left=
     `${((min-lo)/span)*100}%`;
+
 
   fill.style.right=
     `${100-((max-lo)/span)*100}%`;
@@ -526,8 +560,13 @@ function updatePotRangeUI(){
 
 
 function handlePotRange(event){
-  const minInput=$("potMin");
-  const maxInput=$("potMax");
+
+  const minInput=
+    $("potMin");
+
+  const maxInput=
+    $("potMax");
+
 
   let min=
     Number(minInput.value);
@@ -535,18 +574,27 @@ function handlePotRange(event){
   let max=
     Number(maxInput.value);
 
+
   if(min>max){
+
     if(event.target===minInput){
+
       min=max;
       minInput.value=max;
+
     }else{
+
       max=min;
       maxInput.value=min;
+
     }
+
   }
+
 
   state.potMin=min;
   state.potMax=max;
+
 
   updatePotRangeUI();
   renderRecipes();
@@ -554,30 +602,147 @@ function handlePotRange(event){
 
 
 function initRecipeControls(){
-  $("recipeSelect").onchange=()=>{
-    state.recipeFilter=
-      $("recipeSelect").value;
 
-    renderRecipes();
+  const toggle=
+    $("recipeToggle");
+
+  const sort=
+    $("recipeSort");
+
+  const direction=
+    $("recipeDirection");
+
+
+  /* ---------- 料理一覧開閉 ---------- */
+
+  toggle.onclick=()=>{
+
+    setRecipeExpanded(
+      !state.recipeExpanded
+    );
+
   };
 
-  $("recipeSort").value=
+
+  /* ---------- 並び順 ---------- */
+
+  sort.value=
     state.recipeSort;
 
-  $("recipeSort").onchange=()=>{
+
+  sort.onchange=()=>{
+
     state.recipeSort=
-      $("recipeSort").value;
+      sort.value;
 
     renderRecipes();
+
   };
+
+
+  /* ---------- 昇順 / 降順 ---------- */
+
+  direction.onclick=()=>{
+
+    state.recipeDirection=
+      state.recipeDirection==="desc"
+        ? "asc"
+        : "desc";
+
+
+    direction.dataset.direction=
+      state.recipeDirection;
+
+
+    direction.textContent=
+      state.recipeDirection==="desc"
+        ? "↓ 降順"
+        : "↑ 昇順";
+
+
+    renderRecipes();
+
+  };
+
+
+  /* ---------- 鍋要求量 ---------- */
 
   $("potMin").oninput=
     handlePotRange;
 
+
   $("potMax").oninput=
     handlePotRange;
 
+
   updateRecipeControls();
+
+
+  /* 初期状態は閉じる */
+
+  setRecipeExpanded(false);
+}
+
+
+function compareRecipes(a,b){
+
+  /*
+    パーティ選択時は
+    食材一致数を第一優先
+  */
+
+  if(
+    state.party.some(Boolean) &&
+    b.hits!==a.hits
+  ){
+    return b.hits-a.hits;
+  }
+
+
+  let result=0;
+
+
+  if(state.recipeSort==="energy"){
+
+    result=
+      recipeEnergy(a)-
+      recipeEnergy(b);
+
+  }else{
+
+    result=
+      recipePot(a)-
+      recipePot(b);
+
+  }
+
+
+  /*
+    昇順 / 降順
+  */
+
+  if(state.recipeDirection==="desc"){
+
+    result*=-1;
+
+  }
+
+
+  /*
+    同値の場合は
+    レシピエナジー高い順を補助ソート
+  */
+
+  if(result===0){
+
+    result=
+      recipeEnergy(b)-
+      recipeEnergy(a);
+
+  }
+
+
+  return result;
 }
 
 
@@ -673,16 +838,7 @@ function renderRecipes(){
             .length
       }));
 
-  /* 特定料理フィルター */
-
-  if(state.recipeFilter){
-    list=
-      list.filter(
-        r=>
-          r.name===
-          state.recipeFilter
-      );
-  }
+ 
 
   /* 鍋容量フィルター */
 
@@ -1215,7 +1371,6 @@ async function init(){
           state.category=
             button.dataset.category;
 
-          state.recipeFilter="";
 
           updateRecipeControls();
           renderRecipes();

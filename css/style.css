@@ -761,4 +761,125 @@ section {
     grid-column: auto;
   }
 
+
+
+/* ==================================================
+   3. 料理候補 新UI
+   ================================================== */
+
+
+/* ---------- セクション見出し ---------- */
+
+.recipe-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin-bottom: 10px;
 }
+
+.recipe-section-head h2 {
+  margin: 0;
+}
+
+
+/* ---------- 開閉ボタン ---------- */
+
+.recipe-toggle {
+  flex: 0 0 auto;
+
+  padding: 7px 12px;
+
+  border: 1px solid #bbb;
+  border-radius: 7px;
+
+  background: white;
+
+  white-space: nowrap;
+}
+
+
+/* ---------- 操作エリア ---------- */
+
+.recipe-controls {
+  display: grid;
+
+  grid-template-columns:
+    minmax(180px, 1fr)
+    auto
+    minmax(280px, 2fr);
+
+  gap: 12px;
+
+  align-items: end;
+
+  margin-bottom: 10px;
+}
+
+
+/* ---------- 昇順 / 降順 ---------- */
+
+.recipe-direction-control {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+
+  min-width: 90px;
+}
+
+.recipe-direction-label {
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.recipe-direction {
+  padding: 7px 12px;
+
+  border: 1px solid #bbb;
+  border-radius: 7px;
+
+  background: white;
+
+  white-space: nowrap;
+}
+
+
+/* ---------- タブレット ---------- */
+
+@media (max-width: 900px) {
+
+  .recipe-controls {
+    grid-template-columns:
+      minmax(0, 1fr)
+      auto;
+  }
+
+  .pot-filter {
+    grid-column: 1 / -1;
+  }
+
+}
+
+
+/* ---------- スマホ ---------- */
+
+@media (max-width: 600px) {
+
+  .recipe-section-head {
+    align-items: center;
+  }
+
+  .recipe-controls {
+    grid-template-columns:
+      minmax(0, 1fr)
+      auto;
+  }
+
+  .pot-filter {
+    grid-column: 1 / -1;
+  }
+
+}}
