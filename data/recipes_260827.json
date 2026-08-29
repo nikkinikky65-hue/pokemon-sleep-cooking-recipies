@@ -1,5 +1,4 @@
 {
-  "version": 3,
   "ingredients": [
     {
       "id": 1,
@@ -102,8 +101,11 @@
       "id": 1,
       "name": "とくせんリンゴカレー",
       "category": "curry",
-      "ingredient_energy": 630,
-      "pot": 19,
+      "ingredientEnergy": 630,
+      "recipeBonus": 19,
+      "energy": 749.7,
+      "pot": 7,
+      "energyPerIngredient": 107.10000000000001,
       "ingredients": [
         {
           "id": 5,
@@ -115,8 +117,11 @@
       "id": 2,
       "name": "おぶりテールカレー",
       "category": "curry",
-      "ingredient_energy": 5986,
-      "pot": 25,
+      "ingredientEnergy": 5986,
+      "recipeBonus": 25,
+      "energy": 7482.5,
+      "pot": 33,
+      "energyPerIngredient": 226.74242424242425,
       "ingredients": [
         {
           "id": 14,
@@ -132,8 +137,11 @@
       "id": 3,
       "name": "サンパワートマトカレー",
       "category": "curry",
-      "ingredient_energy": 1650,
-      "pot": 19,
+      "ingredientEnergy": 1650,
+      "recipeBonus": 19,
+      "energy": 1963.5,
+      "pot": 15,
+      "energyPerIngredient": 130.9,
       "ingredients": [
         {
           "id": 12,
@@ -149,8 +157,11 @@
       "id": 4,
       "name": "ぜったいねむりバターカレー",
       "category": "curry",
-      "ingredient_energy": 6674,
-      "pot": 35,
+      "ingredientEnergy": 6674,
+      "recipeBonus": 35,
+      "energy": 9009.9,
+      "pot": 55,
+      "energyPerIngredient": 163.81636363636363,
       "ingredients": [
         {
           "id": 4,
@@ -174,8 +185,11 @@
       "id": 5,
       "name": "からくちネギもりカレー",
       "category": "curry",
-      "ingredient_energy": 4720,
-      "pot": 25,
+      "ingredientEnergy": 4720,
+      "recipeBonus": 25,
+      "energy": 5900,
+      "pot": 32,
+      "energyPerIngredient": 184.375,
       "ingredients": [
         {
           "id": 1,
@@ -195,8 +209,11 @@
       "id": 6,
       "name": "キノコのほうしカレー",
       "category": "curry",
-      "ingredient_energy": 3454,
-      "pot": 20,
+      "ingredientEnergy": 3454,
+      "recipeBonus": 20,
+      "energy": 4144.8,
+      "pot": 23,
+      "energyPerIngredient": 180.20869565217393,
       "ingredients": [
         {
           "id": 2,
@@ -212,8 +229,11 @@
       "id": 7,
       "name": "おやこあいカレー",
       "category": "curry",
-      "ingredient_energy": 3618,
-      "pot": 25,
+      "ingredientEnergy": 3618,
+      "recipeBonus": 25,
+      "energy": 4522.5,
+      "pot": 35,
+      "energyPerIngredient": 129.21428571428572,
       "ingredients": [
         {
           "id": 9,
@@ -237,8 +257,11 @@
       "id": 8,
       "name": "満腹チーズバーグカレー",
       "category": "curry",
-      "ingredient_energy": 1608,
-      "pot": 19,
+      "ingredientEnergy": 1608,
+      "recipeBonus": 19,
+      "energy": 1913.52,
+      "pot": 16,
+      "energyPerIngredient": 119.595,
       "ingredients": [
         {
           "id": 8,
@@ -254,8 +277,11 @@
       "id": 9,
       "name": "ほっこりホワイトシチュー",
       "category": "curry",
-      "ingredient_energy": 2640,
-      "pot": 20,
+      "ingredientEnergy": 2640,
+      "recipeBonus": 20,
+      "energy": 3168,
+      "pot": 22,
+      "energyPerIngredient": 144,
       "ingredients": [
         {
           "id": 8,
@@ -275,8 +301,11 @@
       "id": 10,
       "name": "たんじゅんホワイトシチュー",
       "category": "curry",
-      "ingredient_energy": 686,
-      "pot": 19,
+      "ingredientEnergy": 686,
+      "recipeBonus": 19,
+      "energy": 816.34,
+      "pot": 7,
+      "energyPerIngredient": 116.62,
       "ingredients": [
         {
           "id": 8,
@@ -288,8 +317,11 @@
       "id": 11,
       "name": "マメバーグカレー",
       "category": "curry",
-      "ingredient_energy": 721,
-      "pot": 19,
+      "ingredientEnergy": 721,
+      "recipeBonus": 19,
+      "energy": 857.99,
+      "pot": 7,
+      "energyPerIngredient": 122.57000000000001,
       "ingredients": [
         {
           "id": 7,
@@ -301,8 +333,11 @@
       "id": 12,
       "name": "ベイビィハニーカレー",
       "category": "curry",
-      "ingredient_energy": 707,
-      "pot": 19,
+      "ingredientEnergy": 707,
+      "recipeBonus": 19,
+      "energy": 841.33,
+      "pot": 7,
+      "energyPerIngredient": 120.19000000000001,
       "ingredients": [
         {
           "id": 9,
@@ -314,8 +349,11 @@
       "id": 13,
       "name": "ニンジャカレー",
       "category": "curry",
-      "ingredient_energy": 6382,
-      "pot": 48,
+      "ingredientEnergy": 6382,
+      "recipeBonus": 48,
+      "energy": 9445.36,
+      "pot": 50,
+      "energyPerIngredient": 188.90720000000002,
       "ingredients": [
         {
           "id": 15,
@@ -339,8 +377,11 @@
       "id": 14,
       "name": "ひでりカツレツカレー",
       "category": "curry",
-      "ingredient_energy": 1635,
-      "pot": 19,
+      "ingredientEnergy": 1635,
+      "recipeBonus": 19,
+      "energy": 1945.65,
+      "pot": 15,
+      "energyPerIngredient": 129.71,
       "ingredients": [
         {
           "id": 7,
@@ -356,8 +397,11 @@
       "id": 15,
       "name": "とけるオムカレー",
       "category": "curry",
-      "ingredient_energy": 1810,
-      "pot": 19,
+      "ingredientEnergy": 1810,
+      "recipeBonus": 19,
+      "energy": 2153.9,
+      "pot": 16,
+      "energyPerIngredient": 134.61875,
       "ingredients": [
         {
           "id": 3,
@@ -373,8 +417,11 @@
       "id": 16,
       "name": "ビルドアップマメカレー",
       "category": "curry",
-      "ingredient_energy": 2798,
-      "pot": 21,
+      "ingredientEnergy": 2798,
+      "recipeBonus": 21,
+      "energy": 3385.58,
+      "pot": 26,
+      "energyPerIngredient": 130.21461538461537,
       "ingredients": [
         {
           "id": 15,
@@ -398,8 +445,11 @@
       "id": 17,
       "name": "じゅうなんコーンシチュー",
       "category": "curry",
-      "ingredient_energy": 3736,
-      "pot": 25,
+      "ingredientEnergy": 3736,
+      "recipeBonus": 25,
+      "energy": 4670,
+      "pot": 30,
+      "energyPerIngredient": 155.66666666666666,
       "ingredients": [
         {
           "id": 16,
@@ -419,8 +469,11 @@
       "id": 18,
       "name": "れんごくコーンキーマカレー",
       "category": "curry",
-      "ingredient_energy": 9250,
-      "pot": 48,
+      "ingredientEnergy": 9250,
+      "recipeBonus": 48,
+      "energy": 13690,
+      "pot": 77,
+      "energyPerIngredient": 177.7922077922078,
       "ingredients": [
         {
           "id": 6,
@@ -444,8 +497,11 @@
       "id": 19,
       "name": "ピヨピヨパンチ辛口カレー",
       "category": "curry",
-      "ingredient_energy": 4224,
-      "pot": 35,
+      "ingredientEnergy": 4224,
+      "recipeBonus": 35,
+      "energy": 5702.4,
+      "pot": 33,
+      "energyPerIngredient": 172.79999999999998,
       "ingredients": [
         {
           "id": 17,
@@ -465,8 +521,11 @@
       "id": 20,
       "name": "めざめるパワーシチュー",
       "category": "curry",
-      "ingredient_energy": 11839,
-      "pot": 61,
+      "ingredientEnergy": 11839,
+      "recipeBonus": 61,
+      "energy": 19060.79,
+      "pot": 92,
+      "energyPerIngredient": 207.1825,
       "ingredients": [
         {
           "id": 15,
@@ -490,8 +549,11 @@
       "id": 21,
       "name": "いあいぎりすき焼きカレー",
       "category": "curry",
-      "ingredient_energy": 12829,
-      "pot": 61,
+      "ingredientEnergy": 12829,
+      "recipeBonus": 61,
+      "energy": 20654.69,
+      "pot": 101,
+      "energyPerIngredient": 204.5018811881188,
       "ingredients": [
         {
           "id": 1,
@@ -515,8 +577,11 @@
       "id": 22,
       "name": "なりきりバゲッチャシチュー",
       "category": "curry",
-      "ingredient_energy": 10555,
-      "pot": 48,
+      "ingredientEnergy": 10555,
+      "recipeBonus": 48,
+      "energy": 15621.4,
+      "pot": 69,
+      "energyPerIngredient": 226.39710144927537,
       "ingredients": [
         {
           "id": 18,
@@ -540,8 +605,11 @@
       "id": 23,
       "name": "しんりょくアボカドグラタン",
       "category": "curry",
-      "ingredient_energy": 13934,
-      "pot": 78,
+      "ingredientEnergy": 13934,
+      "recipeBonus": 78,
+      "energy": 24802.52,
+      "pot": 115,
+      "energyPerIngredient": 215.67408695652173,
       "ingredients": [
         {
           "id": 19,
@@ -565,8 +633,11 @@
       "id": 24,
       "name": "わかくさカレーパン",
       "category": "curry",
-      "ingredient_energy": 7395,
-      "pot": 48,
+      "ingredientEnergy": 7395,
+      "recipeBonus": 48,
+      "energy": 10944.6,
+      "pot": 63,
+      "energyPerIngredient": 173.72380952380954,
       "ingredients": [
         {
           "id": 11,
@@ -590,8 +661,11 @@
       "id": 25,
       "name": "とびはねるカレーうどん",
       "category": "curry",
-      "ingredient_energy": 14348,
-      "pot": 78,
+      "ingredientEnergy": 14348,
+      "recipeBonus": 78,
+      "energy": 25539.44,
+      "pot": 112,
+      "energyPerIngredient": 228.03071428571428,
       "ingredients": [
         {
           "id": 11,
@@ -612,11 +686,14 @@
       ]
     },
     {
-      "id": 26,
+      "id": 1,
       "name": "キノコのほうしサラダ",
       "category": "salad",
-      "ingredient_energy": 4687,
-      "pot": 25,
+      "ingredientEnergy": 4687,
+      "recipeBonus": 25,
+      "energy": 5858.75,
+      "pot": 33,
+      "energyPerIngredient": 177.53787878787878,
       "ingredients": [
         {
           "id": 2,
@@ -633,11 +710,14 @@
       ]
     },
     {
-      "id": 27,
+      "id": 2,
       "name": "ゆきかきシーザーサラダ",
       "category": "salad",
-      "ingredient_energy": 1598,
-      "pot": 19,
+      "ingredientEnergy": 1598,
+      "recipeBonus": 19,
+      "energy": 1901.62,
+      "pot": 16,
+      "energyPerIngredient": 118.85125,
       "ingredients": [
         {
           "id": 8,
@@ -650,11 +730,14 @@
       ]
     },
     {
-      "id": 28,
+      "id": 3,
       "name": "くいしんぼうポテトサラダ",
       "category": "salad",
-      "ingredient_energy": 4032,
-      "pot": 25,
+      "ingredientEnergy": 4032,
+      "recipeBonus": 25,
+      "energy": 5040,
+      "pot": 36,
+      "energyPerIngredient": 140,
       "ingredients": [
         {
           "id": 4,
@@ -675,11 +758,14 @@
       ]
     },
     {
-      "id": 29,
+      "id": 4,
       "name": "うるおいとうふサラダ",
       "category": "salad",
-      "ingredient_energy": 2490,
-      "pot": 25,
+      "ingredientEnergy": 2490,
+      "recipeBonus": 25,
+      "energy": 3112.5,
+      "pot": 24,
+      "energyPerIngredient": 129.6875,
       "ingredients": [
         {
           "id": 15,
@@ -692,11 +778,14 @@
       ]
     },
     {
-      "id": 30,
+      "id": 5,
       "name": "ばかぢからワイルドサラダ",
       "category": "salad",
-      "ingredient_energy": 2528,
-      "pot": 20,
+      "ingredientEnergy": 2528,
+      "recipeBonus": 20,
+      "energy": 3033.6,
+      "pot": 23,
+      "energyPerIngredient": 131.89565217391305,
       "ingredients": [
         {
           "id": 7,
@@ -717,11 +806,14 @@
       ]
     },
     {
-      "id": 31,
+      "id": 6,
       "name": "マメハムサラダ",
       "category": "salad",
-      "ingredient_energy": 824,
-      "pot": 19,
+      "ingredientEnergy": 824,
+      "recipeBonus": 19,
+      "energy": 980.56,
+      "pot": 8,
+      "energyPerIngredient": 122.57,
       "ingredients": [
         {
           "id": 7,
@@ -730,11 +822,14 @@
       ]
     },
     {
-      "id": 32,
+      "id": 7,
       "name": "あんみんトマトサラダ",
       "category": "salad",
-      "ingredient_energy": 880,
-      "pot": 19,
+      "ingredientEnergy": 880,
+      "recipeBonus": 19,
+      "energy": 1047.2,
+      "pot": 8,
+      "energyPerIngredient": 130.9,
       "ingredients": [
         {
           "id": 12,
@@ -743,11 +838,14 @@
       ]
     },
     {
-      "id": 33,
+      "id": 8,
       "name": "モーモーカプレーゼ",
       "category": "salad",
-      "ingredient_energy": 2441,
-      "pot": 21,
+      "ingredientEnergy": 2441,
+      "recipeBonus": 21,
+      "energy": 2953.61,
+      "pot": 23,
+      "energyPerIngredient": 128.41782608695652,
       "ingredients": [
         {
           "id": 8,
@@ -764,11 +862,14 @@
       ]
     },
     {
-      "id": 34,
+      "id": 9,
       "name": "ムラっけチョコミートサラダ",
       "category": "salad",
-      "ingredient_energy": 3041,
-      "pot": 21,
+      "ingredientEnergy": 3041,
+      "recipeBonus": 21,
+      "energy": 3679.61,
+      "pot": 23,
+      "energyPerIngredient": 159.98304347826087,
       "ingredients": [
         {
           "id": 13,
@@ -781,11 +882,14 @@
       ]
     },
     {
-      "id": 35,
+      "id": 10,
       "name": "オーバーヒートサラダ",
       "category": "salad",
-      "ingredient_energy": 4180,
-      "pot": 25,
+      "ingredientEnergy": 4180,
+      "recipeBonus": 25,
+      "energy": 5225,
+      "pot": 35,
+      "energyPerIngredient": 149.28571428571428,
       "ingredients": [
         {
           "id": 6,
@@ -802,11 +906,14 @@
       ]
     },
     {
-      "id": 36,
+      "id": 11,
       "name": "とくせんリンゴサラダ",
       "category": "salad",
-      "ingredient_energy": 720,
-      "pot": 19,
+      "ingredientEnergy": 720,
+      "recipeBonus": 19,
+      "energy": 856.8,
+      "pot": 8,
+      "energyPerIngredient": 107.1,
       "ingredients": [
         {
           "id": 5,
@@ -815,11 +922,14 @@
       ]
     },
     {
-      "id": 37,
+      "id": 12,
       "name": "めんえきねぎサラダ",
       "category": "salad",
-      "ingredient_energy": 2395,
-      "pot": 19,
+      "ingredientEnergy": 2395,
+      "recipeBonus": 19,
+      "energy": 2850.05,
+      "pot": 15,
+      "energyPerIngredient": 190.00333333333336,
       "ingredients": [
         {
           "id": 1,
@@ -832,11 +942,14 @@
       ]
     },
     {
-      "id": 38,
+      "id": 13,
       "name": "メロメロりんごのチーズサラダ",
       "category": "salad",
-      "ingredient_energy": 2203,
-      "pot": 21,
+      "ingredientEnergy": 2203,
+      "recipeBonus": 21,
+      "energy": 2665.63,
+      "pot": 23,
+      "energyPerIngredient": 115.89695652173914,
       "ingredients": [
         {
           "id": 5,
@@ -853,11 +966,14 @@
       ]
     },
     {
-      "id": 39,
+      "id": 14,
       "name": "ニンジャサラダ",
       "category": "salad",
-      "ingredient_energy": 7878,
-      "pot": 48,
+      "ingredientEnergy": 7878,
+      "recipeBonus": 48,
+      "energy": 11659.44,
+      "pot": 57,
+      "energyPerIngredient": 204.55157894736843,
       "ingredients": [
         {
           "id": 1,
@@ -878,11 +994,14 @@
       ]
     },
     {
-      "id": 40,
+      "id": 15,
       "name": "ねっぷうとうふサラダ",
       "category": "salad",
-      "ingredient_energy": 1780,
-      "pot": 19,
+      "ingredientEnergy": 1780,
+      "recipeBonus": 19,
+      "energy": 2118.2,
+      "pot": 16,
+      "energyPerIngredient": 132.3875,
       "ingredients": [
         {
           "id": 15,
@@ -895,11 +1014,14 @@
       ]
     },
     {
-      "id": 41,
+      "id": 16,
       "name": "ワカクササラダ",
       "category": "salad",
-      "ingredient_energy": 7698,
-      "pot": 48,
+      "ingredientEnergy": 7698,
+      "recipeBonus": 48,
+      "energy": 11393.04,
+      "pot": 62,
+      "energyPerIngredient": 183.75870967741938,
       "ingredients": [
         {
           "id": 10,
@@ -920,11 +1042,14 @@
       ]
     },
     {
-      "id": 42,
+      "id": 17,
       "name": "めいそうスイートサラダ",
       "category": "salad",
-      "ingredient_energy": 5186,
-      "pot": 48,
+      "ingredientEnergy": 5186,
+      "recipeBonus": 48,
+      "energy": 7675.28,
+      "pot": 49,
+      "energyPerIngredient": 156.63836734693876,
       "ingredients": [
         {
           "id": 5,
@@ -941,11 +1066,14 @@
       ]
     },
     {
-      "id": 43,
+      "id": 18,
       "name": "みだれづきコーンサラダ",
       "category": "salad",
-      "ingredient_energy": 2228,
-      "pot": 25,
+      "ingredientEnergy": 2228,
+      "recipeBonus": 25,
+      "energy": 2785,
+      "pot": 17,
+      "energyPerIngredient": 163.8235294117647,
       "ingredients": [
         {
           "id": 16,
@@ -958,11 +1086,14 @@
       ]
     },
     {
-      "id": 44,
+      "id": 19,
       "name": "クロスチョップドサラダ",
       "category": "salad",
-      "ingredient_energy": 6485,
-      "pot": 35,
+      "ingredientEnergy": 6485,
+      "recipeBonus": 35,
+      "energy": 8754.75,
+      "pot": 56,
+      "energyPerIngredient": 156.33482142857142,
       "ingredients": [
         {
           "id": 3,
@@ -983,11 +1114,14 @@
       ]
     },
     {
-      "id": 45,
+      "id": 20,
       "name": "まけんきコーヒーサラダ",
       "category": "salad",
-      "ingredient_energy": 12558,
-      "pot": 61,
+      "ingredientEnergy": 12558,
+      "recipeBonus": 61,
+      "energy": 20218.38,
+      "pot": 100,
+      "energyPerIngredient": 202.18380000000002,
       "ingredients": [
         {
           "id": 17,
@@ -1008,11 +1142,14 @@
       ]
     },
     {
-      "id": 46,
+      "id": 21,
       "name": "はなふぶきミモザサラダ",
       "category": "salad",
-      "ingredient_energy": 8572,
-      "pot": 48,
+      "ingredientEnergy": 8572,
+      "recipeBonus": 48,
+      "energy": 12686.56,
+      "pot": 69,
+      "energyPerIngredient": 183.8631884057971,
       "ingredients": [
         {
           "id": 3,
@@ -1033,11 +1170,14 @@
       ]
     },
     {
-      "id": 47,
+      "id": 22,
       "name": "りんごさんヨーグルトサラダ",
       "category": "salad",
-      "ingredient_energy": 10839,
-      "pot": 78,
+      "ingredientEnergy": 10839,
+      "recipeBonus": 78,
+      "energy": 19293.42,
+      "pot": 104,
+      "energyPerIngredient": 185.51365384615383,
       "ingredients": [
         {
           "id": 3,
@@ -1058,11 +1198,14 @@
       ]
     },
     {
-      "id": 48,
+      "id": 23,
       "name": "くだけるアボカドサラダ",
       "category": "salad",
-      "ingredient_energy": 5278,
-      "pot": 35,
+      "ingredientEnergy": 5278,
+      "recipeBonus": 35,
+      "energy": 7125.3,
+      "pot": 42,
+      "energyPerIngredient": 169.65,
       "ingredients": [
         {
           "id": 19,
@@ -1079,11 +1222,14 @@
       ]
     },
     {
-      "id": 49,
+      "id": 24,
       "name": "じならしワカモレチップス",
       "category": "salad",
-      "ingredient_energy": 14136,
-      "pot": 78,
+      "ingredientEnergy": 14136,
+      "recipeBonus": 78,
+      "energy": 25162.08,
+      "pot": 105,
+      "energyPerIngredient": 239.63885714285715,
       "ingredients": [
         {
           "id": 19,
@@ -1104,11 +1250,14 @@
       ]
     },
     {
-      "id": 50,
+      "id": 25,
       "name": "ごろごろねっとうサラダ",
       "category": "salad",
-      "ingredient_energy": 15749,
-      "pot": 61,
+      "ingredientEnergy": 15749,
+      "recipeBonus": 61,
+      "energy": 25355.89,
+      "pot": 95,
+      "energyPerIngredient": 266.9041052631579,
       "ingredients": [
         {
           "id": 18,
@@ -1129,11 +1278,14 @@
       ]
     },
     {
-      "id": 51,
+      "id": 1,
       "name": "じゅくせいスイートポテト",
       "category": "dessert",
-      "ingredient_energy": 1606,
-      "pot": 19,
+      "ingredientEnergy": 1606,
+      "recipeBonus": 19,
+      "energy": 1911.14,
+      "pot": 14,
+      "energyPerIngredient": 136.51000000000002,
       "ingredients": [
         {
           "id": 4,
@@ -1146,11 +1298,14 @@
       ]
     },
     {
-      "id": 52,
+      "id": 2,
       "name": "ふくつのジンジャークッキー",
       "category": "dessert",
-      "ingredient_energy": 3937,
-      "pot": 25,
+      "ingredientEnergy": 3937,
+      "recipeBonus": 25,
+      "energy": 4921.25,
+      "pot": 35,
+      "energyPerIngredient": 140.60714285714286,
       "ingredients": [
         {
           "id": 9,
@@ -1171,11 +1326,14 @@
       ]
     },
     {
-      "id": 53,
+      "id": 3,
       "name": "とくせんリンゴジュース",
       "category": "dessert",
-      "ingredient_energy": 720,
-      "pot": 19,
+      "ingredientEnergy": 720,
+      "recipeBonus": 19,
+      "energy": 856.8,
+      "pot": 8,
+      "energyPerIngredient": 107.1,
       "ingredients": [
         {
           "id": 5,
@@ -1184,11 +1342,14 @@
       ]
     },
     {
-      "id": 54,
+      "id": 4,
       "name": "クラフトサイコソーダ",
       "category": "dessert",
-      "ingredient_energy": 909,
-      "pot": 19,
+      "ingredientEnergy": 909,
+      "recipeBonus": 19,
+      "energy": 1081.71,
+      "pot": 9,
+      "energyPerIngredient": 120.19,
       "ingredients": [
         {
           "id": 9,
@@ -1197,11 +1358,14 @@
       ]
     },
     {
-      "id": 55,
+      "id": 5,
       "name": "ひのこのジンジャーティー",
       "category": "dessert",
-      "ingredient_energy": 1611,
-      "pot": 19,
+      "ingredientEnergy": 1611,
+      "recipeBonus": 19,
+      "energy": 1917.09,
+      "pot": 16,
+      "energyPerIngredient": 119.818125,
       "ingredients": [
         {
           "id": 11,
@@ -1214,11 +1378,14 @@
       ]
     },
     {
-      "id": 56,
+      "id": 6,
       "name": "プリンのプリンアラモード",
       "category": "dessert",
-      "ingredient_energy": 5625,
-      "pot": 35,
+      "ingredientEnergy": 5625,
+      "recipeBonus": 35,
+      "energy": 7593.75,
+      "pot": 55,
+      "energyPerIngredient": 138.0681818181818,
       "ingredients": [
         {
           "id": 9,
@@ -1239,11 +1406,14 @@
       ]
     },
     {
-      "id": 57,
+      "id": 7,
       "name": "あくまのキッスフルーツオレ",
       "category": "dessert",
-      "ingredient_energy": 3787,
-      "pot": 25,
+      "ingredientEnergy": 3787,
+      "recipeBonus": 25,
+      "energy": 4733.75,
+      "pot": 35,
+      "energyPerIngredient": 135.25,
       "ingredients": [
         {
           "id": 5,
@@ -1264,11 +1434,14 @@
       ]
     },
     {
-      "id": 58,
+      "id": 8,
       "name": "ねがいごとアップルパイ",
       "category": "dessert",
-      "ingredient_energy": 1472,
-      "pot": 19,
+      "ingredientEnergy": 1472,
+      "recipeBonus": 19,
+      "energy": 1751.68,
+      "pot": 16,
+      "energyPerIngredient": 109.48,
       "ingredients": [
         {
           "id": 5,
@@ -1281,11 +1454,14 @@
       ]
     },
     {
-      "id": 59,
+      "id": 9,
       "name": "ネロリのデトックスティー",
       "category": "dessert",
-      "ingredient_energy": 4052,
-      "pot": 25,
+      "ingredientEnergy": 4052,
+      "recipeBonus": 25,
+      "energy": 5065,
+      "pot": 35,
+      "energyPerIngredient": 144.71428571428572,
       "ingredients": [
         {
           "id": 11,
@@ -1302,11 +1478,14 @@
       ]
     },
     {
-      "id": 60,
+      "id": 10,
       "name": "あまいかおりチョコケーキ",
       "category": "dessert",
-      "ingredient_energy": 2803,
-      "pot": 21,
+      "ingredientEnergy": 2803,
+      "recipeBonus": 21,
+      "energy": 3391.63,
+      "pot": 24,
+      "energyPerIngredient": 141.31791666666666,
       "ingredients": [
         {
           "id": 9,
@@ -1323,11 +1502,14 @@
       ]
     },
     {
-      "id": 61,
+      "id": 11,
       "name": "モーモーホットミルク",
       "category": "dessert",
-      "ingredient_energy": 686,
-      "pot": 19,
+      "ingredientEnergy": 686,
+      "recipeBonus": 19,
+      "energy": 816.34,
+      "pot": 7,
+      "energyPerIngredient": 116.62,
       "ingredients": [
         {
           "id": 8,
@@ -1336,11 +1518,14 @@
       ]
     },
     {
-      "id": 62,
+      "id": 12,
       "name": "かるわざソイケーキ",
       "category": "dessert",
-      "ingredient_energy": 1620,
-      "pot": 19,
+      "ingredientEnergy": 1620,
+      "recipeBonus": 19,
+      "energy": 1927.8,
+      "pot": 15,
+      "energyPerIngredient": 128.52,
       "ingredients": [
         {
           "id": 3,
@@ -1353,11 +1538,14 @@
       ]
     },
     {
-      "id": 63,
+      "id": 13,
       "name": "はりきりプロテインスムージー",
       "category": "dessert",
-      "ingredient_energy": 2708,
-      "pot": 20,
+      "ingredientEnergy": 2708,
+      "recipeBonus": 20,
+      "energy": 3249.6,
+      "pot": 23,
+      "energyPerIngredient": 141.2869565217391,
       "ingredients": [
         {
           "id": 15,
@@ -1370,11 +1558,14 @@
       ]
     },
     {
-      "id": 64,
+      "id": 14,
       "name": "マイペースやさいジュース",
       "category": "dessert",
-      "ingredient_energy": 1620,
-      "pot": 19,
+      "ingredientEnergy": 1620,
+      "recipeBonus": 19,
+      "energy": 1927.8,
+      "pot": 16,
+      "energyPerIngredient": 120.4875,
       "ingredients": [
         {
           "id": 12,
@@ -1387,11 +1578,14 @@
       ]
     },
     {
-      "id": 65,
+      "id": 15,
       "name": "おおきいマラサダ",
       "category": "dessert",
-      "ingredient_energy": 2502,
-      "pot": 21,
+      "ingredientEnergy": 2502,
+      "recipeBonus": 21,
+      "energy": 3027.42,
+      "pot": 23,
+      "energyPerIngredient": 131.62695652173915,
       "ingredients": [
         {
           "id": 10,
@@ -1408,11 +1602,14 @@
       ]
     },
     {
-      "id": 66,
+      "id": 16,
       "name": "ちからもちソイドーナッツ",
       "category": "dessert",
-      "ingredient_energy": 4109,
+      "ingredientEnergy": 4109,
+      "recipeBonus": 35,
+      "energy": 5547.15,
       "pot": 35,
+      "energyPerIngredient": 158.48999999999998,
       "ingredients": [
         {
           "id": 10,
@@ -1429,11 +1626,14 @@
       ]
     },
     {
-      "id": 67,
+      "id": 17,
       "name": "だいばくはつポップコーン",
       "category": "dessert",
-      "ingredient_energy": 4480,
-      "pot": 35,
+      "ingredientEnergy": 4480,
+      "recipeBonus": 35,
+      "energy": 6048,
+      "pot": 36,
+      "energyPerIngredient": 168,
       "ingredients": [
         {
           "id": 16,
@@ -1450,11 +1650,14 @@
       ]
     },
     {
-      "id": 68,
+      "id": 18,
       "name": "おちゃかいコーンスコーン",
       "category": "dessert",
-      "ingredient_energy": 7382,
-      "pot": 48,
+      "ingredientEnergy": 7382,
+      "recipeBonus": 48,
+      "energy": 10925.36,
+      "pot": 67,
+      "energyPerIngredient": 163.06507462686568,
       "ingredients": [
         {
           "id": 5,
@@ -1475,11 +1678,14 @@
       ]
     },
     {
-      "id": 69,
+      "id": 19,
       "name": "はなびらのまいチョコタルト",
       "category": "dessert",
-      "ingredient_energy": 2651,
-      "pot": 25,
+      "ingredientEnergy": 2651,
+      "recipeBonus": 25,
+      "energy": 3313.75,
+      "pot": 22,
+      "energyPerIngredient": 150.625,
       "ingredients": [
         {
           "id": 13,
@@ -1492,11 +1698,14 @@
       ]
     },
     {
-      "id": 70,
+      "id": 20,
       "name": "フラワーギフトマカロン",
       "category": "dessert",
-      "ingredient_energy": 9347,
-      "pot": 48,
+      "ingredientEnergy": 9347,
+      "recipeBonus": 48,
+      "energy": 13833.56,
+      "pot": 77,
+      "energyPerIngredient": 179.65662337662337,
       "ingredients": [
         {
           "id": 13,
@@ -1517,11 +1726,14 @@
       ]
     },
     {
-      "id": 71,
+      "id": 21,
       "name": "はやおきコーヒーゼリー",
       "category": "dessert",
-      "ingredient_energy": 5032,
-      "pot": 35,
+      "ingredientEnergy": 5032,
+      "recipeBonus": 35,
+      "energy": 6793.2,
+      "pot": 42,
+      "energyPerIngredient": 161.74285714285713,
       "ingredients": [
         {
           "id": 17,
@@ -1538,11 +1750,14 @@
       ]
     },
     {
-      "id": 72,
+      "id": 22,
       "name": "スパークスパイスコーラ",
       "category": "dessert",
-      "ingredient_energy": 10866,
-      "pot": 61,
+      "ingredientEnergy": 10866,
+      "recipeBonus": 61,
+      "energy": 17494.26,
+      "pot": 87,
+      "energyPerIngredient": 201.08344827586205,
       "ingredients": [
         {
           "id": 5,
@@ -1563,11 +1778,14 @@
       ]
     },
     {
-      "id": 73,
+      "id": 23,
       "name": "かたやぶりコーンティラミス",
       "category": "dessert",
-      "ingredient_energy": 5278,
-      "pot": 35,
+      "ingredientEnergy": 5278,
+      "recipeBonus": 35,
+      "energy": 7125.3,
+      "pot": 40,
+      "energyPerIngredient": 178.1325,
       "ingredients": [
         {
           "id": 17,
@@ -1584,11 +1802,14 @@
       ]
     },
     {
-      "id": 74,
+      "id": 24,
       "name": "ドオーのエクレア",
       "category": "dessert",
-      "ingredient_energy": 12972,
-      "pot": 61,
+      "ingredientEnergy": 12972,
+      "recipeBonus": 61,
+      "energy": 20884.92,
+      "pot": 102,
+      "energyPerIngredient": 204.75411764705882,
       "ingredients": [
         {
           "id": 13,
@@ -1609,11 +1830,14 @@
       ]
     },
     {
-      "id": 75,
+      "id": 25,
       "name": "ドキドキこわいかおパンケーキ",
       "category": "dessert",
-      "ingredient_energy": 13682,
-      "pot": 78,
+      "ingredientEnergy": 13682,
+      "recipeBonus": 78,
+      "energy": 24353.96,
+      "pot": 103,
+      "energyPerIngredient": 236.446213592233,
       "ingredients": [
         {
           "id": 18,
@@ -1634,11 +1858,14 @@
       ]
     },
     {
-      "id": 76,
+      "id": 26,
       "name": "グラスミキサースムージー",
       "category": "dessert",
-      "ingredient_energy": 6048,
-      "pot": 35,
+      "ingredientEnergy": 6048,
+      "recipeBonus": 35,
+      "energy": 8164.8,
+      "pot": 48,
+      "energyPerIngredient": 170.1,
       "ingredients": [
         {
           "id": 19,
@@ -1655,11 +1882,14 @@
       ]
     },
     {
-      "id": 77,
+      "id": 27,
       "name": "みつあつめチョコワッフル",
       "category": "dessert",
-      "ingredient_energy": 14457,
-      "pot": 78,
+      "ingredientEnergy": 14457,
+      "recipeBonus": 78,
+      "energy": 25733.46,
+      "pot": 116,
+      "energyPerIngredient": 221.84017241379308,
       "ingredients": [
         {
           "id": 9,
