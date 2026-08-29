@@ -31,10 +31,63 @@
 </div>
 </section>
 
-<section>
-<label>3. 料理候補</label>
-<div class="muted">現在のパーティが持つ食材種類との一致数が多い順に表示します。</div>
-<div id="recipes"></div>
+<section id="recipeSection">
+  <h2>3. 料理候補</h2>
+
+  <div class="recipe-controls">
+
+    <div class="recipe-control">
+      <label for="recipeSelect">料理</label>
+      <select id="recipeSelect">
+        <option value="">すべての料理</option>
+      </select>
+    </div>
+
+    <div class="recipe-control">
+      <label for="recipeSort">並び順</label>
+      <select id="recipeSort">
+        <option value="energy-desc">レシピエナジー：高い順</option>
+        <option value="energy-asc">レシピエナジー：低い順</option>
+        <option value="pot-desc">鍋容量：多い順</option>
+        <option value="pot-asc">鍋容量：少ない順</option>
+      </select>
+    </div>
+
+    <div class="pot-filter">
+      <div class="pot-filter-head">
+        <span>必要鍋容量</span>
+        <span id="potRangeLabel">-- ～ --</span>
+      </div>
+
+      <div class="dual-range">
+        <div class="range-track"></div>
+        <div id="rangeFill" class="range-fill"></div>
+
+        <input
+          id="potMin"
+          type="range"
+          min="0"
+          max="200"
+          value="0"
+        >
+
+        <input
+          id="potMax"
+          type="range"
+          min="0"
+          max="200"
+          value="200"
+        >
+      </div>
+    </div>
+
+  </div>
+
+  <p class="muted">
+    パーティとの食材一致数を優先し、その中で指定した順番に並べます。
+  </p>
+
+  <div id="recipes"></div>
 </section>
 
 <section id="resultSection" class="hidden">
