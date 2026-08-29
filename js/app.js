@@ -440,8 +440,8 @@ function setRecipeExpanded(expanded){
 
     content.classList.remove("hidden");
 
-    toggle.textContent=
-      "料理一覧を閉じる ▲";
+    toggle.textContent="▲";
+    toggle.title="料理一覧を閉じる";
 
     toggle.setAttribute(
       "aria-expanded",
@@ -452,8 +452,8 @@ function setRecipeExpanded(expanded){
 
     content.classList.add("hidden");
 
-    toggle.textContent=
-      "料理一覧を開く ▼";
+    toggle.textContent="▼";
+    toggle.title="料理一覧を開く";
 
     toggle.setAttribute(
       "aria-expanded",

@@ -773,32 +773,37 @@ section {
 .recipe-section-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 
-  gap: 12px;
+  gap: 6px;
 
   margin-bottom: 10px;
 }
 
-.recipe-section-head h2 {
-  margin: 0;
+.recipe-section-head label {
+  font-weight: normal;
 }
 
-
-/* ---------- 開閉ボタン ---------- */
-
 .recipe-toggle {
-  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
 
-  padding: 7px 12px;
+  padding: 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   border: 1px solid #bbb;
-  border-radius: 7px;
+  border-radius: 5px;
 
   background: white;
 
-  white-space: nowrap;
+  font-size: 0.8em;
+  line-height: 1;
 }
+
+
 
 
 /* ---------- 操作エリア ---------- */
