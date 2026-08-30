@@ -11,16 +11,16 @@
 <h1>ポケスリ料理構成ツール</h1>
 <p class="muted">実験版：カレー・サラダ・デザート対応 / 最大5匹の1パーティで料理構成を探索</p>
 
-<section>
-<label>1. 料理カテゴリ</label>
+<section class="tool-section">
+<label class="tool-section-title">1. 料理カテゴリ</label>
   <button type="button" class="category-button" data-category="curry">カレー</button>
   <button type="button" class="category-button" data-category="salad">サラダ</button>
   <button type="button" class="category-button" data-category="dessert">デザート・ドリンク</button>
 </div>
 </section>
 
-<section>
-<label>2. パーティ構成（最大5匹）</label>
+<section class="tool-section">
+<label class="tool-section-title">2. パーティ構成（最大5匹）</label>
 <div class="muted">タイプ絞り込み（複数選択可・未選択＝全タイプ）</div>
 <div id="partyTypeGrid" class="type-grid" style="margin:8px 0 12px"></div>
 <div class="party" id="party"></div>
@@ -30,7 +30,7 @@
 </div>
 </section>
 
-<section id="recipeSection">
+<section id="recipeSection" class="tool-section">
 
   <<div class="recipe-section-head">
 
@@ -127,14 +127,30 @@
 
 </section>
 
-<section id="resultSection" class="hidden">
-<label>4. 選択料理の不足食材</label>
-<div id="missing"></div>
+<section id="resultSection" class="tool-section">
+
+  <label class="tool-section-title">
+    4. 選択料理の不足食材
+  </label>
+
+  <div id="missing">
+
+    <div class="section-placeholder">
+      料理を選択すると不足食材を表示します。
+    </div>
+
+  </div>
+
 </section>
 
-<section id="candidateSection" class="hidden">
-<label>5. 食材を持ってくるポケモン候補</label>
-<div id="candidateTitle" class="muted"></div>
+<section id="candidateSection" class="tool-section">
+
+<label class="tool-section-title">
+  5. 食材を持ってくるポケモン候補
+</label>
+<div id="candidateTitle" class="section-placeholder">
+  料理の食材を選択すると候補ポケモンを表示します。
+</div>
 <div style="margin:10px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px">
   <div>
     <label for="candidateSort">並び順</label>
