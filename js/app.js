@@ -1366,35 +1366,78 @@ async function init(){
 
     /* カテゴリ */
 
-    document
-      .querySelectorAll(
-        ".category-button"
-      )
-      .forEach(button=>{
-        button.onclick=()=>{
-          document
-            .querySelectorAll(
-              ".category-button"
-            )
-            .forEach(
-              item=>
-                item.classList.remove(
-                  "active"
-                )
-            );
+/* カテゴリ */
 
-          button.classList.add(
-            "active"
-          );
-
-          state.category=
-            button.dataset.category;
+const categoryButtons=
+  [
+    ...document.querySelectorAll(
+      ".category-button"
+    )
+  ];
 
 
-          updateRecipeControls();
-          renderRecipes();
-        };
-      });
+/*
+  初期状態
+  未選択 ＝ 全カテゴリ
+*/
+
+categoryButtons.forEach(
+  button=>
+    button.classList.remove("active")
+);
+
+
+categoryButtons.forEach(button=>{
+
+  button.onclick=()=>{
+
+    const category=
+      button.dataset.category;
+
+
+    /* ON / OFF */
+
+    if(state.categories.has(category)){
+
+      state.categories.delete(category);
+
+      button.classList.remove("active");
+
+    }else{
+
+      state.categories.add(category);
+
+      button.classList.add("active");
+
+    }
+
+
+    /*
+      3カテゴリ全部を選択したら
+      全選択 ＝ 未選択へ戻す
+    */
+
+    if(
+      state.categories.size===
+      categoryButtons.length
+    ){
+
+      state.categories.clear();
+
+      categoryButtons.forEach(
+        item=>
+          item.classList.remove("active")
+      );
+
+    }
+
+
+    updateRecipeControls();
+    renderRecipes();
+
+  };
+
+});
 
     /* パーティ側タイプ */
 
