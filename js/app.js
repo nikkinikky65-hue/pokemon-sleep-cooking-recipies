@@ -10,7 +10,7 @@ const state={
   recipe:null,
   candidateFood:null,
   candidateCount:null,
-  category:"curry",
+  categories:new Set(),
   partyTypes:new Set(),
   candidateTypes:new Set(),
   recipeSort:"pot",
@@ -415,8 +415,27 @@ function recipePot(r){
 
 
 function categoryRecipes(){
+
+  /*
+    カテゴリ未選択
+    ＝ 全カテゴリ表示
+  */
+
+  if(!state.categories.size){
+    return state.recipes;
+  }
+
+
+  /*
+    1～2カテゴリ選択
+    ＝ 選択カテゴリのみ
+  */
+
   return state.recipes.filter(
-    r=>r.category===state.category
+    r=>
+      state.categories.has(
+        r.category
+      )
   );
 }
 
@@ -1345,9 +1364,110 @@ async function init(){
       partyArea.appendChild(member.box);
     }
 
-    /* カテゴリ */
+    /* ==================================================
+   料理カテゴリ
+   ================================================== */
 
-    document
+const categoryButtons=
+  [
+    ...document.querySelectorAll(
+      ".category-button"
+    )
+  ];
+
+
+/*
+  初期状態
+  ＝ 未選択
+  ＝ 全カテゴリ
+*/
+
+categoryButtons.forEach(
+  button=>
+    button.classList.remove("active")
+);
+
+
+categoryButtons.forEach(button=>{
+
+  button.onclick=()=>{
+
+    const category=
+      button.dataset.category;
+
+
+    /*
+      押したカテゴリを
+      ON / OFF
+    */
+
+    if(
+      state.categories.has(category)
+    ){
+
+      state.categories.delete(
+        category
+      );
+
+      button.classList.remove(
+        "active"
+      );
+
+    }else{
+
+      state.categories.add(
+        category
+      );
+
+      button.classList.add(
+        "active"
+      );
+
+    }
+
+
+    /*
+      3カテゴリ全部ONになった場合
+
+      3つ選択
+      ＝ 全カテゴリ
+      ＝ 未選択状態へ戻す
+    */
+
+    if(
+      state.categories.size===
+      categoryButtons.length
+    ){
+
+      state.categories.clear();
+
+      categoryButtons.forEach(
+        item=>
+          item.classList.remove(
+            "active"
+          )
+      );
+
+    }
+
+
+    /*
+      カテゴリが変わったので
+      鍋要求量レンジを再設定
+    */
+
+    updateRecipeControls();
+
+
+    /*
+      料理一覧を再描画
+    */
+
+    renderRecipes();
+
+  };
+
+});
       .querySelectorAll(
         ".category-button"
       )
