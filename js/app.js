@@ -229,8 +229,13 @@ function makeMember(i){
 
     renderFoods(member);
 
-    $("resultSection").classList.add("hidden");
-    $("candidateSection").classList.add("hidden");
+    $("missing").innerHTML=
+      '<div class="muted">料理を選択すると不足食材を表示します。</div>';
+
+    $("candidateTitle").textContent=
+      "食材を選択すると候補ポケモンを表示します。";
+
+    $("candidates").innerHTML="";
 
     renderRecipes();
   };
@@ -765,56 +770,6 @@ function compareRecipes(a,b){
 }
 
 
-/* ==================================================
-   料理ソート
-   ================================================== */
-
-function compareRecipes(a,b){
-
-  /*
-    パーティ選択時：
-    食材一致数を最優先
-  */
-
-  if(
-    state.party.some(Boolean) &&
-    b.hits!==a.hits
-  ){
-    return b.hits-a.hits;
-  }
-
-  switch(state.recipeSort){
-
-    case "energy-asc":
-      return (
-        recipeEnergy(a)-
-        recipeEnergy(b)
-      );
-
-    case "pot-desc":
-      return (
-        recipePot(b)-
-        recipePot(a) ||
-        recipeEnergy(b)-
-        recipeEnergy(a)
-      );
-
-    case "pot-asc":
-      return (
-        recipePot(a)-
-        recipePot(b) ||
-        recipeEnergy(b)-
-        recipeEnergy(a)
-      );
-
-    case "energy-desc":
-    default:
-      return (
-        recipeEnergy(b)-
-        recipeEnergy(a)
-      );
-  }
-}
 
 
 /* ==================================================
@@ -829,8 +784,13 @@ function renderRecipes(){
 
   state.recipe=null;
 
-  $("resultSection").classList.add("hidden");
-  $("candidateSection").classList.add("hidden");
+  $("missing").innerHTML=
+    '<div class="muted">料理を選択すると不足食材を表示します。</div>';
+
+  $("candidateTitle").textContent=
+    "食材を選択すると候補ポケモンを表示します。";
+
+  $("candidates").innerHTML="";
 
   /*
     カテゴリ内の全料理を母集団にする。
@@ -983,8 +943,6 @@ function renderMissing(){
         )
     );
 
-  $("resultSection").classList.remove("hidden");
-  $("candidateSection").classList.add("hidden");
 
   $("missing").innerHTML="";
 
@@ -1104,9 +1062,6 @@ function renderCandidates(foodId,requiredCount){
   state.candidateFood=foodId;
   state.candidateCount=requiredCount;
 
-  $("candidateSection")
-    .classList
-    .remove("hidden");
 
   $("candidateTitle").textContent=
     `${ingName(foodId)} ×${requiredCount} を拾えるポケモン`;
@@ -1505,13 +1460,6 @@ categoryButtons.forEach(button=>{
         renderFoods(member);
       });
 
-      $("resultSection")
-        .classList
-        .add("hidden");
-
-      $("candidateSection")
-        .classList
-        .add("hidden");
 
       renderRecipes();
     };
